@@ -10,6 +10,10 @@
 
 An enterprise-grade, deep-learning-augmented computer vision pipeline for automated ingestion, semantic filtering, visual deduplication, video scene ranking, and omnichannel social asset production.
 
+<p align="center">
+  <img src="assets/MediaFlow_Showcase_Hero.png" alt="MediaFlow Pipeline & Architecture Showcase" width="100%">
+</p>
+
 ---
 
 ## 📌 Executive Summary & Background
@@ -177,3 +181,4 @@ Special gratitude to the open-source creators of:
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
