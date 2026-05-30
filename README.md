@@ -1,4 +1,4 @@
-# MediaFlow — Intelligent Media Processing & Curation Pipeline
+# MediaFlow - Intelligent Media Processing & Curation Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -21,13 +21,15 @@ An enterprise-grade, deep-learning-augmented computer vision pipeline for automa
 **MediaFlow** was originally designed and engineered for **Housefix.lk (Pvt) Ltd**, a premier residential renovation and civil contracting firm. 
 
 ### The Enterprise Challenge
-Field teams and project supervisors at Housefix.lk routinely capture massive volumes of on-site media — frequently exceeding **2,000+ unorganized photos and videos per renovation milestone**. In this raw state, the media assets presented severe operational bottlenecks:
+Field teams and project supervisors at Housefix.lk routinely capture massive volumes of on-site media - frequently exceeding **2,000+ unorganized photos and videos per renovation milestone**. In this raw state, the media assets presented severe operational bottlenecks:
 - **Low Signal-to-Noise Ratio**: Blurry captures, extreme dark/underexposed angles, site receipts, plumbing closeups, debris piles, and accidental bursts.
 - **Manual Curation Overhead**: Marketing and client-reporting teams spent 15+ hours per project sorting, color-grading, watermarking, and selecting milestone shots.
 - **Video Fragment Overload**: Raw camera sweeps and shaky footage required tedious manual cutting to extract engaging progress highlights.
 
-### The Open-Source Vision
-To solve these challenges at scale, MediaFlow was architected as a modular, end-to-end media intelligence pipeline. Recognizing that field-service operations, civil construction teams, creative agencies, and digital marketers share identical pain points, the core engine has been decoupled from proprietary business rules and **open-sourced for the global computer vision and multimedia engineering community**.
+### Enterprise Origin to Open-Source Community Release
+MediaFlow was originally conceived, engineered, and deployed in-house for **Housefix.lk (Pvt) Ltd** to automate their high-volume renovation media workflow. After proving a 98% reduction in manual curation time, the pipeline architecture was intentionally decoupled, generalized, and refactored into a fully customizable open-source framework.
+
+By abstracting business-specific logic into modular configuration registries (mediaflow/config.py), developers and organizations across diverse industries - including real estate, civil engineering, interior architecture, field inspection, and digital agencies - can easily plug in their own domain prompts, quality thresholds, and branding guidelines to build production-grade media curation pipelines.
 
 ---
 
@@ -151,15 +153,15 @@ python -m src.brand_delivery --project-id 01 --target all
 
 ---
 
-## 🗺️ Project Milestones (April 2026 – May 2026)
+## 🗺️ Project Milestones (April 2026 - May 2026)
 
-* **April 2026 (Phase 1 — Ingestion & Photo Intelligence)**:
+* **April 2026 (Phase 1 - Ingestion & Photo Intelligence)**:
   - Initial architectural specification & repository setup.
   - Development of the OpenCV Laplacian quality filtering engine.
   - Implementation of zero-shot CLIP semantic scoring & 24h temporal deduplication.
   - Delivery of the 45-photo milestone curation algorithm.
 
-* **May 2026 (Phase 2 — Video Intelligence & Automated Production)**:
+* **May 2026 (Phase 2 - Video Intelligence & Automated Production)**:
   - Integration of TransNetV2 shot boundary neural detection.
   - Lossless FFmpeg video muting and scene segmentation.
   - CLIP-driven video scene priority ranking.
@@ -180,5 +182,5 @@ Special gratitude to the open-source creators of:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 

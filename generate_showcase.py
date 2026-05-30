@@ -138,7 +138,7 @@ def create_hero_showcase():
     
     # Title
     draw.text((70, 42), "MediaFlow", fill=(255, 255, 255), font=font_brand)
-    draw.text((260, 52), "— Intelligent Media Processing & Curation Pipeline", fill=(148, 163, 184), font=font_sub)
+    draw.text((260, 52), " -  Intelligent Media Processing & Curation Pipeline", fill=(148, 163, 184), font=font_sub)
     
     # Badges
     bx = 70

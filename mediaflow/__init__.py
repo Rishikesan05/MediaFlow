@@ -1,5 +1,5 @@
 """
-MediaFlow — Intelligent Media Processing & Curation Pipeline
+MediaFlow - Intelligent Media Processing & Curation Pipeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 A high-performance computer vision and deep learning pipeline for

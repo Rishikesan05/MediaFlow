@@ -157,7 +157,7 @@ def cmd_story(args):
 def main():
     parser = argparse.ArgumentParser(
         prog="mediaflow",
-        description="MediaFlow — Intelligent Media Processing & Curation Pipeline"
+        description="MediaFlow - Intelligent Media Processing & Curation Pipeline"
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
