@@ -150,7 +150,7 @@ def create_hero_showcase():
         ("OpenCV", (80, 40, 130)),
         ("TransNetV2", (20, 90, 50)),
         ("FFmpeg", (20, 80, 80)),
-        ("Enterprise: Housefix.lk Pvt Ltd", (30, 41, 59)),
+        ("Enterprise: HOUSEFIX.LK (PVT) LTD", (30, 41, 59)),
     ]
     for b_text, b_col in badges:
         bw = draw_pill(draw, bx, by, b_text, font_badge, b_col, (240, 240, 240))

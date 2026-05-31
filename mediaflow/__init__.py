@@ -6,7 +6,7 @@ A high-performance computer vision and deep learning pipeline for
 automated photo curation, visual deduplication, video scene splitting,
 and social media production.
 
-Originally engineered for Housefix.lk (Pvt) Ltd.
+Originally engineered for HOUSEFIX.LK (PVT) LTD.
 """
 
 __version__ = "1.0.0"

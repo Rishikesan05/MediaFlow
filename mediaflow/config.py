@@ -91,7 +91,7 @@ class BrandingConfig:
     story_width: int = 1080
     story_height: int = 1920
     
-    # Palette tokens (Housefix.lk standard)
+    # Palette tokens (HOUSEFIX.LK (PVT) LTD standard)
     color_navy: Tuple[int, int, int] = (15, 32, 51)         # #0F2033
     color_navy_dark: Tuple[int, int, int] = (10, 22, 38)     # #0A1626
     color_brand_blue: Tuple[int, int, int] = (42, 111, 212)  # #2A6FD4

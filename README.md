@@ -18,18 +18,20 @@ An enterprise-grade, deep-learning-augmented computer vision pipeline for automa
 
 ## 📌 Executive Summary & Background
 
-**MediaFlow** was originally designed and engineered for **Housefix.lk (Pvt) Ltd**, a premier residential renovation and civil contracting firm. 
+**MediaFlow** was originally conceived, engineered, and deployed in-house for **HOUSEFIX.LK (PVT) LTD**, a premier residential renovation and civil contracting enterprise.
 
 ### The Enterprise Challenge
-Field teams and project supervisors at Housefix.lk routinely capture massive volumes of on-site media - frequently exceeding **2,000+ unorganized photos and videos per renovation milestone**. In this raw state, the media assets presented severe operational bottlenecks:
-- **Low Signal-to-Noise Ratio**: Blurry captures, extreme dark/underexposed angles, site receipts, plumbing closeups, debris piles, and accidental bursts.
-- **Manual Curation Overhead**: Marketing and client-reporting teams spent 15+ hours per project sorting, color-grading, watermarking, and selecting milestone shots.
+Field teams and project supervisors at **HOUSEFIX.LK (PVT) LTD** routinely capture massive volumes of on-site media - frequently exceeding **2,000+ unorganized photos and videos per renovation milestone**. In this raw state, media assets presented severe operational bottlenecks:
+- **Low Signal-to-Noise Ratio**: Blurry captures, extreme dark/underexposed angles, contractor receipts, plumbing closeups, debris heaps, and accidental bursts.
+- **Manual Curation Overhead**: Engineering and reporting teams spent 6.5+ hours per project sorting, color-grading, watermarking, and selecting milestone shots.
 - **Video Fragment Overload**: Raw camera sweeps and shaky footage required tedious manual cutting to extract engaging progress highlights.
 
-### Enterprise Origin to Open-Source Community Release
-MediaFlow was originally conceived, engineered, and deployed in-house for **Housefix.lk (Pvt) Ltd** to automate their high-volume renovation media workflow. After proving a 98% reduction in manual curation time, the pipeline architecture was intentionally decoupled, generalized, and refactored into a fully customizable open-source framework.
+### Enterprise Origin & Open-Source Motivation
+> *"I built MediaFlow originally as an in-house automation tool for **HOUSEFIX.LK (PVT) LTD** to solve their site media problem. After seeing it cut manual review time by **98%** (from 6.5 hours down to under 4 minutes on a single GPU), I generalized it, decoupled the hardcoded business logic, and open-sourced it so that anyone in construction, real estate, field engineering, interior architecture, or content creation can customize it for their own needs."*
+>
+> - **Selvaventhan Rishikesan**, Creator & Lead Engineer
 
-By abstracting business-specific logic into modular configuration registries (mediaflow/config.py), developers and organizations across diverse industries - including real estate, civil engineering, interior architecture, field inspection, and digital agencies - can easily plug in their own domain prompts, quality thresholds, and branding guidelines to build production-grade media curation pipelines.
+By abstracting business-specific rules into modular configuration registries (`mediaflow/config.py`), developers and organizations worldwide can easily plug in their own domain prompts, quality thresholds, and branding assets to automate intelligent media workflows.
 
 ---
 
@@ -171,7 +173,7 @@ python -m src.brand_delivery --project-id 01 --target all
 
 ## 🤝 Acknowledgments & Enterprise Credits
 
-MediaFlow was conceptualized, architected, and engineered by **Selvaventhan Rishikesan** ([@Rishikesan05](https://github.com/Rishikesan05)) under the technology and digital transformation initiative for **Housefix.lk (Pvt) Ltd**.
+MediaFlow was conceptualized, architected, and engineered by **Selvaventhan Rishikesan** ([@Rishikesan05](https://github.com/Rishikesan05)) under the technology and digital transformation initiative for **HOUSEFIX.LK (PVT) LTD**.
 
 Special gratitude to the open-source creators of:
 - **OpenAI CLIP** (`openai/clip-vit-base-patch32`)
